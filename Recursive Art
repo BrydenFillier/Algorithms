@@ -1,0 +1,11 @@
+var drawShape = function(x, y, radius) {
+    
+    ellipse(x, y, radius, radius);
+    
+    var newRadius = radius/2;
+    if (newRadius >= 2) {
+        drawShape(x, y, newRadius);
+    }
+};
+
+drawShape(width/2, height/2, 380);
