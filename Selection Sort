@@ -1,0 +1,11 @@
+var displayArray = function(array) {
+    textFont(createFont("monospace"), 12);
+    
+};
+
+var selectionSort = function(array) {
+
+};
+
+var array = [2, 1];
+array = selectionSort(array);
